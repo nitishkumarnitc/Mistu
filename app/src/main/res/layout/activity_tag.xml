@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b2ebf2"
+    tools:context="com.example.kedee.mistu.ask.TAG">
+
+    <TextView
+        android:id="@+id/tag_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/myGreen"
+        android:padding="12dp"
+        android:text="@string/tag_info"
+        android:textColor="@color/shiny"
+        android:textSize="14sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tag_text"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/login_background">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:id="@+id/tag_text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:paddingBottom="10dp"
+                android:paddingEnd="16dp"
+                android:paddingTop="0dp"
+                android:text="@string/tag_text1"
+                android:textColor="#283593"
+
+                />
+
+            <AutoCompleteTextView
+                android:id="@+id/tag_edit1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/edit_text_verification"
+                android:hint="@string/tag_hint"
+                android:maxLength="40"
+                android:paddingBottom="16dp"
+                android:paddingStart="5dp"
+                android:paddingTop="8dp"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tag_text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:paddingBottom="10dp"
+                android:paddingEnd="16dp"
+                android:paddingTop="8dp"
+                android:text="@string/tag_text2"
+                android:textColor="#283593"
+
+                />
+
+            <AutoCompleteTextView
+                android:id="@+id/tag_edit2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/edit_text_verification"
+                android:hint="@string/tag_hint"
+                android:maxLength="40"
+                android:paddingBottom="16dp"
+                android:paddingStart="5dp"
+                android:paddingTop="8dp"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tag_text3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:paddingBottom="10dp"
+                android:paddingEnd="16dp"
+                android:paddingTop="8dp"
+                android:text="@string/tag_text3"
+                android:textColor="#283593"
+
+                />
+
+            <AutoCompleteTextView
+                android:id="@+id/tag_edit3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/edit_text_verification"
+                android:hint="@string/tag_hint"
+                android:maxLength="40"
+                android:paddingBottom="16dp"
+                android:paddingStart="5dp"
+                android:paddingTop="8dp"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/tag_done"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/button_sigup_login"
+                android:text="@string/done"
+                android:textAllCaps="true"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
+

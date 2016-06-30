@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/googleBackground"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="0dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginBottom="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+
+        >
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/begin_tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            app:tabMode="fixed"
+            app:tabGravity="fill"
+            app:tabTextColor="@color/googleBackground"
+            app:tabSelectedTextColor="#d50000"
+            app:tabBackground="@color/myGreen"
+            android:background="@drawable/login_signup_container"
+            />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/begin_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            android:background="@drawable/myback"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_height="60dp">
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

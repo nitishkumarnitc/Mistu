@@ -1,0 +1,1007 @@
+<resources>
+    <string name="app_name">iHelp</string>
+    <string name="clickme">Click Me</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_registered">Registered</string>
+    <string name="title_activity_main">Main</string>
+    <string name="title_activity_password_reset">PasswordReset</string>
+    <string name="title_activity_change_password">ChangePassword</string>
+    <string name="welcome_msg">Welcome to iHelp</string>
+    <string name="email_hint">Email</string>
+    <string name="login">Login</string>
+    <string name="Email">E-mail</string>
+    <string name="register">Sign Up</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgotpwd">Forgot Password?</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="gender">Gender</string>
+    <string name="iam">I am...</string>
+    <string name="enter_email">Enter your email ID</string>
+    <string name="enter_reg">Enter your college reg. ID</string>
+    <string name="create_pass">Create a password</string>
+    <string name="policy_accept">By creating an account you agree to our <b>terms and conditions and privacy policy</b>. </string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!--  !!!!!!!!!!!!!!!!!!!!!!!!!! -->
+    <string name="fname">First</string>
+    <string name="lname">Last</string>
+    <string name="username">NITC Id</string>
+    <string name="shareExperience">Share Your Experience</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_home">Home</string>
+
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="home_nav_drawer_items">
+        <item>Profile</item>
+        <item>Search</item>
+        <item>Interests</item>
+        <item>Settings</item>
+        <item>Logout</item>
+    </string-array>
+
+
+    <string name="thank">Thanks</string>
+    <string name="reward">Reward</string>
+    <string name="hello_long">Tere hi liye tujhse hu juda jannaten kahan bin hue fanahhh !!! Ohh ho hoooo ho ho !!!</string>
+    <string name="title_activity_ahr">AHR</string>
+
+    <string name="helpie_pic">Helpie\'s Pic</string>
+    <string name="branch">B-Tech,CSE</string>
+    <string name="accept">Accept</string>
+    <string name="help_request">A help request title will go here A help request title will go here
+        A help request title will go here A help request title will go here
+        A help request title will go here A help request title will go here!!!
+    </string>
+    <string name="refresh">Refresh</string>
+
+    <!-- ...................... -->
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Academic</item>
+        <item>Technical</item>
+        <item>Emergency</item>
+        <item>Examination</item>
+        <item>Stationary</item>
+        <item>Finance</item>
+        <item>Medical</item>
+        <item>Placement</item>
+        <item>Sports</item>
+        <item>Extra-curricular</item>
+        <item>Contacts</item>
+        <item>Mess Issues</item>
+        <item>Hostel Issues</item>
+        <item>Others</item>
+
+    </string-array>
+
+    <string-array name="search_name">
+        <item>Sumit</item>
+        <item>Sumit</item>
+        <item>Sumit</item>
+        <item>Sumit</item>
+        <item>Sumit</item>
+        <item>Sumit</item>
+        <item>Sumit</item>
+        <item>Sumit</item>
+        <item>Sumit</item>
+
+    </string-array>
+
+    <string-array name="branch_stream">
+        <item>B-tech,CSE</item>
+        <item>M-Tech,Mech</item>
+        <item>MCA,CSE</item>
+        <item>B-tech,Production</item>
+        <item>M-tech,CSE</item>
+        <item>PHD,CSE</item>
+        <item>B-Tech,Civil</item>
+        <item>B-Tech,ECE</item>
+        <item>M-tech,EEE</item>
+    </string-array>
+
+    <string name="ask_help">Help Me</string>
+    <string name="search">Search User</string>
+    <string name="department">Branch</string>
+
+    <string name="submit">Submit</string>
+    <string name="select_category">Select Category </string>
+    <string name="select_tag">Enter Tags  </string>
+    <string name="title">TITLE</string>
+    <string name="choose_cat">CHOOSE CATEGORY</string>
+    <string name="title_hint">What\'s the request about \?</string>
+    <string name="description">description</string>
+    <string name="des_hint">Please write a short description !</string>
+    <string name="choose_tag">TAGS</string>
+    <string name="ask_for_help">Ask For Help</string>
+    <string name="title_activity_ask__cat">Ask_Cat</string>
+    <string name="tag_info">Tags are used to sub categorize your help request. Please provide at least one
+        Tag, so that we can process your request properly.
+    </string>
+
+    <string name="tag_text1">Tag 1</string>
+    <string name="tag_text2">Tag 2</string>
+    <string name="tag_text3">Tag 3</string>
+    <string name="tag_text4">Tag 4</string>
+    <string name="tag_text5">Tag 5</string>
+
+    <string name="tag_hint">Enter a Tag</string>
+    <string name="done">Done</string>
+
+    <string name="noti_help_req">Requests</string>
+    <string name="noti_count">00</string>
+    <string name="noti_help_accept">Accepts</string>
+    <string name="noti_help_others">Others</string>
+    <string name="pic_name">Name</string>
+    <string name="pic_branchStream">B-TECH, ECE</string>
+    <string name="category">Category</string>
+    <string name="noti_title">A long title may go here, which may occupy a large height, who knows :P At least i do not know</string>
+    <string name="noti_view">View</string>
+    <string name="noti_skip">Skip</string>
+
+    <string name="acc_view">View Profile</string>
+    <string name="acc_info">Name accepted your <u><b>help request</b></u> \!\!\! </string>
+    <string name="acc_title">Title: </string>
+    <string name="acc_not_now">Not Now</string>
+    <string name="acc_contact">Contact</string>
+
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+
+    <array name="home_nav_drawer_icons">
+        <item>@drawable/ic_pages</item>
+        <item>@drawable/ic_settings_applications_white_24dp</item>
+        <item>@drawable/ic_refresh_white_24dp</item>
+        <item>@drawable/ic_people</item>
+        <item>@drawable/ic_whats_hot</item>
+    </array>
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_pages</item>
+        <item>@drawable/ic_whats_hot</item>
+        <item>@drawable/ic_people</item>
+        <item>@drawable/ic_communities</item>
+        <item>@drawable/ic_people</item>
+        <item>@drawable/ic_communities</item>
+        <item>@drawable/ic_pages</item>
+        <item>@drawable/ic_whats_hot</item>
+        <item>@drawable/ic_people</item>
+        <item>@drawable/ic_communities</item>
+        <item>@drawable/ic_people</item>
+        <item>@drawable/ic_communities</item>
+        <item>@drawable/ic_pages</item>
+        <item>@drawable/ic_people</item>
+    </array>
+
+    <string name="profile_name">Mistu Sagar</string>
+    <string name="profile_thanks">Thanks </string>
+    <string name="profile_thanks_count">532</string>
+    <string name="profile_interests">Interests &amp; Skills</string>
+    <string name="profile_accepts">Accepts</string>
+    <string name="profile_asked">Asked</string>
+    <string name="profile_done">Helped</string>
+    <string name="profile_shared">Shared</string>
+    <string name="ahr_title">Title</string>
+    <string name="view">View</string>
+    <string name="ahr_hr_text">Help Requests</string>
+
+
+    <string name="interest_welcome">Choose your interests and skills !</string>
+    <string name="branch_name">CSE</string>
+    <string name="sports">SPORTS</string>
+    <string name="arts">ARTS</string>
+    <string name="technical">TECHNICAL</string>
+    <string name="others">Others</string>
+
+    <string name="interest_name">Interest Name</string>
+
+    <string-array name="interests_cse">
+        <item>Foundation Of Computing</item>
+        <item>Logic Design</item>
+        <item>Foundation of Programming</item>
+        <item>Signals and Systems</item>
+        <item>Logic Design Lab</item>
+        <item>Programming Lab</item>
+        <item>Computer Organization</item>
+        <item>Data Structures and Algorithms</item>
+        <item>Discrete Structures</item>
+        <item>Hardware Lab</item>
+        <item>Data Structures Lab</item>
+        <item>Theory Of Computation</item>
+        <item>DBMS</item>
+        <item>Operating Systems</item>
+        <item>Software Engineering</item>
+        <item>Compiler Design</item>
+        <item>Computer Networks</item>
+        <item>Environmental Studies</item>
+        <item>Economics</item>
+        <item>Principles of Management</item>
+        <item>Number Theory and Cryptography</item>
+        <item>Principles of programming languages </item>
+        <item>Computational Intelligence</item>
+        <item>Information Theory</item>
+        <item>Graph Theory and Combinatorics </item>
+        <item>Combinatorial Algorithms</item>
+        <item>Topics in Algorithms</item>
+        <item>Quantum Computation</item>
+        <item>Computational Complexity</item>
+        <item>Computational Algebra</item>
+        <item>Computer Architecture</item>
+        <item>Distributed Computing</item>
+        <item>Middleware Technologies</item>
+        <item>Computer Security</item>
+        <item>Cloud Computing</item>
+        <item>Data Mining</item>
+        <item>Multi Agent Systems</item>
+        <item>Bioinformatics</item>
+        <item>Natural Language Processing</item>
+        <item>Web Programming</item>
+        <item>Image Processing</item>
+        <item>Pattern Recognition</item>
+        <item>Computer Graphics</item>
+        <item>Design and Analysis of Algorithms</item>
+        <item>Coding Theory</item>
+        <item>Compiler Lab</item>
+        <item>Operating System Lab</item>
+        <item>Networks Lab</item>
+        <item>DBMS Lab</item>
+
+    </string-array>
+
+    <string-array name="interests_ece">
+        <item>Mathematics 3</item>
+        <item>Network Theory</item>
+        <item>Logic Design </item>
+        <item>Solid State Devices </item>
+        <item>Signals and Systems</item>
+        <item>Basic Electronics Lab </item>
+        <item>Electronics Workshop</item>
+        <item>Mathematics 4 </item>
+        <item>Electronic Circuits 1 </item>
+        <item>Electromagnetic Field Theory </item>
+        <item>Microprocessors and Microcontrollers </item>
+        <item>Fundamentals of Communication </item>
+        <item>Electronic Circuits Lab </item>
+        <item>Logic Design Lab </item>
+        <item>Electronic Circuits 2 </item>
+        <item>Digital Communication </item>
+        <item>Digital Signal Processing </item>
+        <item>Control systems </item>
+        <item>Electronic Circuits Lab 2 </item>
+        <item>Microprocessors and Microcontrollers Lab </item>
+        <item>Principles of Management </item>
+        <item>Computer Organization and Architecture </item>
+        <item>Information Theory and Coding </item>
+        <item>Computer Networks</item>
+        <item>Environmental Studies for Electronics Engineers</item>
+        <item>Analog Communication Lab</item>
+        <item>Mini Project</item>
+        <item>Economics </item>
+        <item>Fundamentals of Wireless Communication </item>
+        <item>Digital Signal Processing Lab </item>
+        <item>Digital Communication Lab </item>
+        <item>Major Project</item>
+        <item>Seminar</item>
+        <item>Major Project </item>
+        <item>Television Engineering </item>
+        <item>Power Electronics </item>
+        <item>Microelectronics Technology </item>
+        <item>Modeling and Testing of Digital Systems </item>
+        <item>MOS Device Modeling </item>
+        <item>VLSI Circuits and Systems </item>
+        <item>Active Network Synthesis </item>
+        <item>Embedded Systems </item>
+        <item>Multi Rate Systems </item>
+        <item>Digital Image Processing </item>
+        <item>Microwave Communication</item>
+        <item>Speech Processing </item>
+        <item>Wavelet Theory </item>
+        <item>RF Circuits </item>
+        <item>High Speed Digital Circuits </item>
+        <item>Antenna Theory </item>
+        <item>Analog MOS Integrated Circuits </item>
+        <item>High Speed Semiconductor Devices</item>
+        <item>Nanoelectronics </item>
+        <item>Opto-electronic Communication Systems </item>
+        <item>Communication Switching Systems </item>
+        <item>Radar Engineering </item>
+        <item>Cryptography </item>
+        <item>Opto-electronic Devices and Systems </item>
+        <item>Signal Compression </item>
+        <item>Microwave Devices and Circuits </item>
+        <item>Advanced Wireless Communication </item>
+        <item>Signal Estimation and Detection </item>
+        <item>Architecture of Advanced Processors </item>
+        <item>Radiation and Propagation </item>
+        <item>Electronic Instrumentation </item>
+        <item>State of the art and Future Memories </item>
+        <item>Reliability of Semiconductor Devices </item>
+    </string-array>
+
+    <string-array name="interests_eee">
+        <item>Electric Circuit Theory</item>
+        <item>Electrical Measurements </item>
+        <item>Electronics 1</item>
+        <item>Electrical Machines- I</item>
+        <item>Basic Electrical Engineering Lab</item>
+        <item>Electronics 1</item>
+
+        <item>Linear System Analysis</item>
+        <item>Electrical Machines 1</item>
+        <item>Applied Electromagnetics</item>
+        <item>Pulse and Digital Electronics</item>
+        <item>Electronics 2</item>
+        <item>Mechanical Engineering Lab</item>
+        <item>Electrical Measurements Lab</item>
+
+        <item>Environmental Studies</item>
+        <item>Control System Engineering</item>
+        <item>Power System 1</item>
+        <item>Microprocessors and Microcontrollers</item>
+        <item>Electronics Lab 2</item>
+        <item>Electrical Machines Lab 1</item>
+
+        <item>High Voltage Engineering</item>
+        <item>Electrical Machine Design</item>
+        <item>Electrical Engineering Materials</item>
+        <item>Electric Machine Modelling and Analysis</item>
+        <item>CAD and Computational Graphics</item>
+        <item>Non Conventional Energy Systems</item>
+        <item>Fuzzy Logic Systems</item>
+        <item>Analog Integrated Circuits</item>
+
+        <item>Digital Signal Processing</item>
+        <item>Electronic Circuits and Systems</item>
+        <item>Advanced Control Systems</item>
+        <item>Power System 2</item>
+        <item>Electrical Machines Lab 2</item>
+        <item>Simulation Lab</item>
+        <item>Mini Project</item>
+        <item>Advanced Processor Architecture</item>
+        <item>Electric Power Utilization</item>
+        <item>Introduction to Computer Networking</item>
+        <item>Special Machines and Linear Machines</item>
+        <item>Electronic Design Automation</item>
+        <item>Active Filter Design</item>
+        <item>Dynamic System Simulation</item>
+        <item>Algorithm Analysis and Data Structures</item>
+        <item>Signals Systems and Transforms</item>
+        <item>Power System Planning and Load Forecasting</item>
+        <item>Optimization Techniques and Algorithms</item>
+        <item>Economics</item>
+        <item>Switchgear and Protection</item>
+        <item>Electrical Engineering Drawing</item>
+        <item>Control Systems Lab</item>
+        <item>Power Engineering Lab</item>
+        <item>Optimal Control Theory</item>
+        <item>Switched Mode Power Supplies</item>
+        <item>Industrial Electronics</item>
+        <item>ANN and GA methods</item>
+        <item>Power Quality Issues</item>
+        <item>Dynamic Graph Theory</item>
+        <item>Computer Control Process</item>
+        <item>Microprocessor Based Systems</item>
+        <item>Linear System Theory</item>
+        <item>Control and Guidance Engineering</item>
+        <item>Industrial Electronics</item>
+        <item>Advanced Digital Signal Processing</item>
+        <item>Electrical Systems for Building</item>
+        <item>Analog and Digital Communication</item>
+        <item>Stochastic Control Systems</item>
+
+        <item>Principles of Management</item>
+        <item>Instrumentation Systems</item>
+        <item>Major Project</item>
+        <item>Seminar</item>
+
+
+        <item>Power System Operation and Control</item>
+        <item>Non linear Control Theory</item>
+        <item>Energy Auditing and Analysis</item>
+        <item>Flexible AC Transmission Systems</item>
+        <item>Biomedical Engineering</item>
+        <item>Design of Digital Control Systems</item>
+        <item>Analysis and Design of UPS</item>
+        <item>Power System Reliability</item>
+        <item>Reliability in Electronic Design</item>
+        <item>Advanced Topics in Power Electronics</item>
+        <item>Power Electronic Circuits and Industrial Drives</item>
+        <item>Instrumentation Systems</item>
+    </string-array>
+
+
+    <string-array name="interests_mech">
+        <item> Mathematics 3 </item>
+        <item> Electrical Measurements and Machines</item>
+        <item> Mechanics of Fluids</item>
+        <item> Elements of Solid Mechanics</item>
+        <item> Engineering Mechanics</item>
+        <item> Materials Science and Metallurgy</item>
+        <item> Machine Drawing </item>
+        <item> Electrical Measurements and Machines Laboratory</item>
+        <item> Mathematics 4 </item>
+        <item> Fluid Machinery</item>
+        <item> Applied Mechanics of Solids</item>
+        <item> Mechanics of Machinery</item>
+        <item> Thermodynamics</item>
+        <item> Essentials of Management</item>
+        <item> Fluid Mechanics and Fluid Machinery Laboratory</item>
+        <item> Strength of Materials Laboratory</item>
+
+        <item> Dynamics of Machinery</item>
+        <item> Principles of Heat Transfer</item>
+        <item> Management of Production Systems</item>
+        <item> Manufacturing Science </item>
+        <item> Environmental Studies for Mechanical Engineers</item>
+        <item> Heat Transfer Laboratory </item>
+        <item> Production Engineering Laboratory 1 </item>
+
+        <item> Machining Science and Machine Tools </item>
+        <item> Metrology and Instrumentation </item>
+        <item> Gas Dynamics </item>
+        <item> Thermal Engineering 1 </item>
+        <item> Elective 2 </item>
+        <item> Metrology and Instrumentation Laboratory</item>
+        <item> Production Engineering Laboratory 2</item>
+
+        <item> Machine Design 1 </item>
+        <item> Thermal Engineering 2</item>
+        <item> Operations Research </item>
+        <item> Heat Engines Laboratory </item>
+        <item> CAD CAM Laboratory </item>
+        <item> Project</item>
+
+        <item> Machine Design 2 </item>
+        <item> Industrial Economics </item>
+        <item> Seminar </item>
+        <item> Project</item>
+
+        <item> Introduction to Finite Element Methods</item>
+        <item> Experimental Stress Analysis</item>
+        <item> Theory of Plasticity</item>
+        <item> Control Systems Engineering</item>
+        <item> Nonlinear Dynamics and Chaos</item>
+        <item> Engineering Fracture Mechanics</item>
+        <item> Fluid Power Controls</item>
+        <item> Advanced Thermodynamics</item>
+        <item> Computational Methods in Engineering</item>
+        <item> Powder Metallurgy</item>
+        <item> Introduction to Marketing</item>
+        <item> Work Design and Measurement</item>
+        <item> Cost Analysis and Control</item>
+        <item> Supply Chain Management</item>
+        <item> Management of Organisational Behaviour</item>
+        <item> Production Planning and Control</item>
+        <item> Management of Human Resources</item>
+        <item> Quality Planning and Analysis</item>
+        <item> Industrial Tribology</item>
+        <item> Vehicle Dynamics</item>
+        <item> Introduction to Robotics</item>
+        <item> Design for Manufacturability</item>
+        <item> Mechatronics</item>
+        <item> Unconventional Energy Systems</item>
+        <item> Computational Fluid Dynamics</item>
+        <item> Aerodynamics</item>
+        <item> Heating Ventilation and Air Conditioning</item>
+        <item> Fundamentals of Combustion</item>
+        <item> Refrigerating and Air Conditioning Systems</item>
+        <item> Automobile Engineering</item>
+        <item> Introduction to Computer Graphics</item>
+        <item> Experimental Methods in Fluid Flow and Heat Transfer</item>
+        <item> Mechanical Behaviour and Testing of Materials</item>
+        <item> Technology Management</item>
+        <item> Competitive Manufacturing Management</item>
+        <item> Engineering Optimization</item>
+        <item> Accounting and Finance for Engineers</item>
+        <item> Simulation Modelling and Analysis</item>
+        <item> Modelling of Manufacturing Systems</item>
+        <item> Human Factors in Engineering and Design</item>
+        <item> CAD CAM CIM</item>
+
+    </string-array>
+
+    <string-array name="interests_common">
+        <item>Mathematics 1</item>
+        <item>Physics</item>
+        <item>Basic Electrical Sciences</item>
+        <item>Engineering Graphics</item>
+        <item>Physics Lab</item>
+
+        <item>Chemistry</item>
+        <item>Professional Communication</item>
+        <item>Engineering Mechanics</item>
+        <item>Computer Programming</item>
+        <item>Chemistry Lab</item>
+        <item>Mathematics 2 </item>
+    </string-array>
+
+    <string-array name="interests_civil">
+        <item>Introduction to Civil Engineering</item>
+        <item>Mathematics 3 </item>
+        <item>Mechanics of Solids </item>
+        <item>Building Technology</item>
+        <item>Surveying Practical 1 </item>
+        <item>Material Testing Lab 1 </item>
+        <item>Structural Analysis 2 </item>
+        <item>Structural Design 1 </item>
+        <item>Water Resource Engineering 1</item>
+        <item>Geotechnology</item>
+        <item>Transportation Engineering 1</item>
+        <item>Environmental Studies in Civil Engineering</item>
+        <item>Building Design and Drawing</item>
+        <item>Geotechnical Engineering Lab </item>
+
+
+        <item>Mathematics 4</item>
+        <item>Structural Analysis 1</item>
+        <item>Open Channel Hydraulics and Hydrology</item>
+        <item>Functional Design of Buildings</item>
+        <item>Geomatics </item>
+        <item>Geosciences </item>
+        <item>Surveying Practical 1</item>
+        <item>Material Testing Lab 1</item>
+
+        <item>Structural Design 2</item>
+        <item>Transportation Engineering 2 </item>
+        <item>Environmental Engineering </item>
+        <item>Fluids lab </item>
+        <item>Environmental Engineering Lab</item>
+        <item>Economics and Management</item>
+        <item>Construction Management and Quantity Surveying</item>
+        <item>Professional Practice</item>
+
+        <item>Computer Applications in Civil Engineering</item>
+        <item>Structural Analysis 3 </item>
+        <item>Water Resource Engineering 2</item>
+        <item>Computer Applications Lab</item>
+        <item>Seminar</item>
+        <item>Project </item>
+
+        <item>Economics and Management</item>
+        <item>Construction Management and Quantity Surveying</item>
+        <item>Professional Practice</item>
+        <item>Project</item>
+        <item>Statistics Probability and Reliability Methods</item>
+        <item>Concrete Technology</item>
+        <item>Ground Improvement</item>
+        <item>Reinforced Earth and Geotextiles</item>
+        <item>Water Conveyance Systems </item>
+        <item>Hydraulic Machines </item>
+        <item>Pavement Design</item>
+        <item>Finite Element Analysis of Fluid Flow</item>
+        <item>Prestressed Concrete Design </item>
+        <item>Earth and Earth Retaining Structures</item>
+        <item>Environmental Geotechnics</item>
+        <item>Remote Sensing and GIS Applications </item>
+        <item>Hydropower</item>
+        <item>Traffic Engineering</item>
+        <item>Advanced Surveying</item>
+        <item>Advanced Concrete Design</item>
+        <item>Computational Elasticity</item>
+
+
+        <item>Water Resources Systems</item>
+        <item>Computer Applications in Hydro Engineering </item>
+        <item>Coastal Engineering</item>
+        <item>Transportation Planning</item>
+        <item>Transportation Planning</item>
+        <item>Advanced Geotechnical Engineering</item>
+        <item>Soil Dynamics and Design of Machine Foundations</item>
+        <item>Industrial Waste Engineering </item>
+        <item>Environmental Risk Assessment</item>
+        <item>Environmental Pollution Control Engineering </item>
+        <item>Design of Experiments</item>
+        <item>Transportation Infrastructure Design</item>
+        <item>Transportation and Landuse</item>
+        <item>Pavement Materials </item>
+        <item>Dynamics Of Structures </item>
+
+        <item>Seismic Design of Structures </item>
+        <item>Advanced Structural Analysis </item>
+        <item>Earth and Rockfill Dam Engineering</item>
+        <item>Environmental Hydraulics </item>
+        <item>Environmental Forensics</item>
+        <item>Advanced Environmental Engineering</item>
+        <item>Multivariate Data Analysis </item>
+        <item>Data Structures and Analysis</item>
+        <item>Pavement Management</item>
+        <item>Numerical Modelling in Geotechnical Engineering </item>
+        <item>Optimization of Civil Engineering Systems </item>
+        <item>Traffic Flow Modelling</item>
+        <item>Musculoskeletal Biomechanics</item>
+        <item>Road Safety And Management </item>
+        <item>Finite Element Analysis </item>
+
+
+    </string-array>
+
+    <string-array name="interests_chem">
+
+        <item>mathematics 3</item>
+        <item>chemical technology laboratory</item>
+        <item>chemical technology</item>
+        <item> Fluids Mechanics</item>
+        <item>machine drawing</item>
+        <item>physical chemistry</item>
+        <item>process calculation</item>
+
+
+        <item>chemical engineering thermodynamics 1</item>
+        <item>fluid mechanics lab</item>
+        <item>heat transfer</item>
+        <item>material science.</item>
+        <item>organic chemistry</item>
+        <item>mechanical operation</item>
+        <item>Mechanical operation lab</item>
+        <item>Mathematics 4</item>
+
+
+        <item>chemical engineering thermodynamics 2</item>
+        <item>chemical reaction engineering</item>
+        <item>Environmental  studies</item>
+        <item>environmental pollution and control lab</item>
+
+        <item>process instrumentation</item>
+        <item>mass transfer 1</item>
+        <item>heat transfer lab</item>
+
+
+        <item>mass transfer 2</item>
+        <item>process Dynamics and Control</item>
+        <item>Chemical Process Equipment Design</item>
+        <item>Chemical Reaction Engineering lab</item>
+        <item>Mass Transfer Laboratory</item>
+
+
+        <item>Transport Phenomena</item>
+        <item>Computer Aided Design</item>
+        <item>Principal of Management</item>
+        <item>Process Dynamics and Control Lab</item>
+        <item>Project</item>
+
+
+        <item>Engineering Economics</item>
+        <item>Chemical Process Optimization</item>
+        <item>Seminar</item>
+
+        <item>Energy Technology</item>
+        <item>Petroleum Refining Operations and Processes</item>
+        <item>Corrosion Engineering</item>
+        <item>Biochemical Engineering</item>
+        <item>Polymer Technology</item>
+        <item>Food Technology</item>
+        <item>Electrochemical Engineering</item>
+        <item>Ceramic Technology</item>
+        <item>Biotechnology</item>
+        <item>Environment Impact Assessment and clean Technology</item>
+        <item>Process Automation</item>
+        <item>New Enterprises Creation and Management</item>
+        <item>Speciality Polymers</item>
+        <item>Process Modelling and simulation</item>
+        <item>Fertilizer  Technology</item>
+        <item>Membrane  Technology</item>
+        <item>Mathematical Methods in Chemical Engineering</item>
+        <item>Computational Fluid dynamics</item>
+        <item>catalysis</item>
+        <item>professional Ethics and Human Values</item>
+        <item>Micro Electronics Processing</item>
+        <item>Risk Analysis and Hazop</item>
+        <item>Operations Research</item>
+        <item>Novel Separation Techniques</item>
+        <item>Human Resource Management</item>
+        <item>Project Engineering</item>
+        <item>Drugs and Pharmaceutical Technology</item>
+        <item>Fuel Cells</item>
+        <item>Composite Materials</item>
+        <item>Safety in Chemical Industries</item>
+        <item>Computer Application in Chemical Engineering</item>
+
+    </string-array>
+
+    <string-array name="interests_ep">
+
+        <item>Mathematics 3</item>
+        <item>Classical Mechanics</item>
+        <item>Thermodynamics</item>
+        <item>Optics</item>
+        <item>Electromagnetics</item>
+        <item>Physical Chemistry</item>
+        <item>Physics Lab 3</item>
+
+
+        <item>Mathematics 4</item>
+        <item>Quantum Mechanics</item>
+        <item>Statistical Physics</item>
+        <item>Analog and Digital Electronics</item>
+        <item>Applied Electromagnetics</item>
+        <item>Organic Chemistry</item>
+        <item>Physics Lab 3</item>
+
+        <item>Applied Quantum Mechanics</item>
+        <item>Condensed Matter Physics</item>
+        <item>Computational Physics</item>
+        <item>Cell Biology</item>
+        <item>Chemistry Lab</item>
+        <item>Physics Lab 4</item>
+
+        <item>Semiconductor Physics and Technology</item>
+        <item>Lasers and Applications</item>
+        <item>Experimental Techniques in Physics</item>
+        <item>Independent Study</item>
+        <item>Minor project</item>
+        <item>Environmental Studies</item>
+        <item>Physics Lab 5</item>
+        <item>Mini Project</item>
+        <item>Industrial training</item>
+
+        <item>Introduction to Photonics</item>
+        <item>Nuclear Science and Engineering</item>
+        <item>Principles of Management</item>
+        <item>Seminar</item>
+        <item>Project</item>
+
+        <item>Economics</item>
+        <item>Physics of Nanostructures</item>
+        <item>Project</item>
+
+
+        <item>Fiber Optics</item>
+        <item>Atmospheric and Environmental Physics</item>
+        <item>Optical Engineering</item>
+        <item>Thin film technology</item>
+        <item>Unconventional Electronics</item>
+        <item>Introduction to Optoelectronics</item>
+        <item>Relativity and Gravitation</item>
+        <item>Nano Photonics</item>
+        <item>Light Matter interaction in Resonators</item>
+        <item>Introduction to Critical phenomena</item>
+
+    </string-array>
+
+    <string-array name="interests_pro">
+        <item>Mathematics 1</item>
+        <item>Physics</item>
+        <item>Basic Electrical Sciences</item>
+        <item>Engineering Graphics</item>
+        <item>Physics Lab</item>
+
+        <item>Chemistry</item>
+        <item>Professional Communication</item>
+        <item>Engineering Mechanics</item>
+        <item>Computer Programming</item>
+        <item>Chemistry Lab</item>
+        <item>Mathematics 2 </item>
+    </string-array>
+
+    <string-array name="interests_bt">
+        <item>Mathematics 1</item>
+        <item>Physics</item>
+        <item>Basic Electrical Sciences</item>
+        <item>Engineering Graphics</item>
+        <item>Physics Lab</item>
+
+        <item>Chemistry</item>
+        <item>Professional Communication</item>
+        <item>Engineering Mechanics</item>
+        <item>Computer Programming</item>
+        <item>Chemistry Lab</item>
+        <item>Mathematics 2 </item>
+    </string-array>
+
+    <string-array name="interests_arch">
+
+        <item>Architectural Graphics 1</item>
+        <item>Introduction to Architectural design 1</item>
+        <item>Basic Design 1</item>
+        <item>Building Material</item>
+        <item>Architectural Graphics 2</item>
+        <item>History of Architecture 1</item>
+        <item>Theory of Structure</item>
+        <item>Introduction to Architectural design 2</item>
+        <item>Basic Design 2</item>
+
+
+        <item>Building Construction 1</item>
+        <item>Theory of Design</item>
+        <item>History of Architecture 2</item>
+        <item>Structural Design 1</item>
+        <item>Building Climatology and Solar Architecture </item>
+        <item> Architectural Design and Field Tour 3</item>
+        <item>CAAD Laboratory</item>
+
+        <item>Building Construction 2</item>
+        <item>Water Supply and Sanitation</item>
+        <item>Structural Design 2</item>
+        <item>Land Surveying</item>
+        <item>Architectural Design and Fild Tour 4</item>
+        <item>Surveying practical</item>
+
+        <item>Building Construction 3</item>
+        <item>Sociology and Human Settlement</item>
+        <item>Architectural Acoustics</item>
+        <item>Environmental Studies For Architecture</item>
+        <item>Architectural Design and Fild Tour 5</item>
+        <item>Interactive Media Design Lab</item>
+
+
+        <item>Estimation Costing and Valuation</item>
+        <item>Architectural Illumination</item>
+        <item>Working Drawing</item>
+        <item>Interior Design</item>
+        <item>Energy Sustainability and Site Planing</item>
+        <item>Architectural Design and Fild Tour 6</item>
+
+
+        <item>Heating Ventilation and Air Conditioning</item>
+        <item>Landscape Architecture</item>
+        <item>Housing</item>
+        <item>Urban and Regional Planning</item>
+        <item>Architectural Design and Fild Tour 7</item>
+        <item>Building Science Lab</item>
+
+        <item>Computer Applications in Architecture</item>
+        <item>Architectural Specification</item>
+        <item>Architectural Design and Field Tour 8</item>
+        <item>Seminar</item>
+
+        <item>Office Training </item>
+        <item>Critical Appraisal of Buildings</item>
+        <item>Construction Site Study</item>
+        <item>Documentation of Innovative Details</item>
+        <item>Thesis 1</item>
+
+        <item>Construction Management</item>
+        <item>Professional Practice</item>
+        <item>Thesis 2</item>
+
+        <item>Ergonomics</item>
+        <item>Art in Architecture</item>
+        <item>Advance Theory of Architecture</item>
+        <item>Vernacular Architecture</item>
+
+
+        <item>Architectural Photography</item>
+        <item>Traditional Kerala Architecture </item>
+        <item>Behavioral Studies in Built Environment</item>
+        <item>Soil Mechanics and Foundation Design</item>
+        <item>Research methods</item>
+
+
+        <item>Disaster Management and Earthquake Resistant Building</item>
+        <item>Architecture as a cultural System</item>
+
+        <item>industrial Architecture </item>
+        <item>Urban Design</item>
+        <item>Traditional Indian Architecture</item>
+        <item>Intelligent Buildings</item>
+
+        <item>Architectural Conservation</item>
+        <item>Environmental Impact Assessment</item>
+        <item>Urban Land Management</item>
+        <item>Remote Sensing and GIS</item>
+
+    </string-array>
+
+    <string-array name="interests_sports">
+        <item>Hockey</item>
+        <item>Table Tennis</item>
+        <item>Lawn Tennis</item>
+        <item>Cricket</item>
+        <item>BasketBall</item>
+        <item>FootBall</item>
+        <item>Badminton</item>
+        <item>Kabbadi</item>
+        <item>HandBall</item>
+        <item>Chess</item>
+        <item>Polo</item>
+        <item>Golf</item>
+        <item>Gymnasium</item>
+        <item>Yoga</item>
+        <item>Karate</item>
+        <item>Athletics</item>
+
+    </string-array>
+
+    <string-array name="interests_arts">
+        <item>Music</item>
+        <item>Singing</item>
+        <item>Dance</item>
+        <item>Comedy</item>
+        <item>Acting</item>
+        <item>Debate</item>
+        <item>Photography</item>
+        <item>Guitar</item>
+        <item>Flute</item>
+        <item>Drums</item>
+        <item>Violin</item>
+        <item>Piano</item>
+        <item>Public Speaking</item>
+        <item>Designing</item>
+        <item>Painting</item>
+    </string-array>
+
+    <string-array name="interests_technical">
+        <item>Robotics</item>
+        <item>Computer Hardware</item>
+        <item>Computer Software</item>
+        <item>C</item>
+        <item>Cpp</item>
+        <item>Java</item>
+        <item>Python</item>
+        <item>Programming</item>
+        <item>Web Development</item>
+        <item>Android</item>
+        <item>iOS</item>
+        <item>Electronics</item>
+        <item>Automobile</item>
+        <item>Aeronautics</item>
+
+    </string-array>
+
+    <string-array name="interests_others">
+        <item>Social Service</item>
+        <item>Travelling</item>
+        <item>NSS</item>
+        <item>Blood Donation</item>
+        <item>Plantation</item>
+        <item>Cleaning</item>
+        <item>Teaching</item>
+    </string-array>
+
+    <string name="tag1">Data Structures</string>
+    <string name="tag2">Microprocessor and Deep Learning</string>
+    <string name="tag3">Java</string>
+    <string name="hr_details_info">Help Request Details</string>
+
+    <string name="noti_info">Hey! Seems like you can help them..</string>
+    <string name="full_name">Full Name</string>
+    <string name="shareExperienceInfo">Share your help experiences and spread the awareness of helping each other.</string>
+    <string name="share">Share</string>
+    <string name="shareExperienceEditText">How was your experience ?</string>
+    <string name="verificationLink">We will send you a verification link on your email Id. Please verify your account and be a part
+                 of this <b>Help Friendly </b> world !</string>
+
+    <string name="signupSuccess">Thanks for being a part of iHelp </string>
+    <string name="moreInfo">Let us know more about you </string>
+    <string name="contact_details">Contact Details</string>
+    <string name="mobile_num">Mobile number</string>
+    <string name="current_city">Current city</string>
+    <string name="proceed">Proceed</string>
+    <string name="choose_pic">Choose a Pic</string>
+    <string name="dash">__</string>
+    <string name="help_done_final"> Is your help done?</string>
+    <string name="no">No</string>
+    <string name="helper_details">Helpers Details</string>
+    <string name="email_info">sumitgolusagar@gmail.com</string>
+    <string name="phone_info">9973262041</string>
+    <string name="notification">Notifications</string>
+    <string name="search_users">Search users having common interests and skills </string>
+    <string name="search_hint">Interest or Skill</string>
+    <string name="search_result">Showing results for Data Structures and Algorithms</string>
+    <string name="search_no_result">Sorry! No results found. </string>
+    <string name="req_info">Seems like you can help name</string>
+    <string name="tag">TAGS</string>
+    <string name="home_ask_text"><b>Need help?</b> People are willing to help you. Just ask for it ! </string>
+    <string name="home_ahr_text">People are helping each other. May be you can help someone too !</string>
+    <string name="home_noti_text">Check your help request status, grab an opportunity to help someone and much more !</string>
+    <string name="home_search_text">Want to find people sharing interests and skills same as yours ?</string>
+</resources>

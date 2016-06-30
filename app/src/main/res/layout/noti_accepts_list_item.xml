@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/noti_acc_main_card_view1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="4dp"
+    card_view:cardBackgroundColor="@color/googleBackground"
+    app:cardPreventCornerOverlap="false"
+    android:layout_marginTop="10dp"
+    android:layout_marginStart="0dp"
+    android:layout_marginEnd="0dp"
+    android:layout_marginBottom="10dp"
+    app:contentPadding="0dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/noti_acc_list_rl_pic_container"
+            android:layout_alignParentStart="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/noti_acc_list_item_img"
+                android:layout_alignParentTop="true"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:padding="0dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/upload_pic"
+                android:layout_centerHorizontal="true"
+                android:scaleType="centerCrop"
+                />
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_toEndOf="@+id/noti_acc_list_rl_pic_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/noti_acc_info_container"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/noti_acc_info"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/acc_info"
+                        android:paddingTop="3dp"
+                        android:textSize="15sp"
+                        android:textStyle="normal"
+                        android:textColor="@color/myGreen"
+                        />
+
+                    <TextView
+                        android:id="@+id/noti_acc_list_help_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="3dp"
+                        android:layout_marginStart="0dp"
+                        android:gravity="start"
+                        android:text="@string/noti_title"
+                        android:textSize="12sp"
+                        android:textStyle="normal"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginEnd="0dp"
+                        android:textColor="#000000"
+                        />
+                </LinearLayout>
+
+
+                <ImageView
+                    android:id="@+id/noti_phone_logo"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/call_icon"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="end|center_vertical"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginStart="5dp"
+                    />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

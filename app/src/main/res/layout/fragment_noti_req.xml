@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kedee.mistu.notification.NotiREQFragment">
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <ListView
+        android:id="@+id/noti_req_frag_listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="2dp"
+        android:divider="@color/myColor"
+        android:layout_margin="5dp"
+        >
+    </ListView>
+
+</LinearLayout>

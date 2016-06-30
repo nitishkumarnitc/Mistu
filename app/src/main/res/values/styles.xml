@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorHint">#80cbc4</item>
+
+    </style>
+
+
+
+    <style name="BeginTheme" parent="Theme.AppCompat.Light.NoActionBar">
+            <!-- dont delete this -->
+    </style>
+
+    <style name="RatingBar" parent="@android:style/Widget.Holo.Light.RatingBar.Small">
+        <item name="android:minHeight">20dp</item>
+        <item name="android:maxHeight">40dp</item>
+    </style>
+
+    <style name="EditTextVerification" parent="Widget.AppCompat.EditText">
+        <item name="android:gravity">center_vertical</item>
+
+    </style>
+
+
+
+
+
+</resources>

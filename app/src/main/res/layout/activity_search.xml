@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    android:id="@+id/search_linear_layout"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/myColor"
+    tools:context="com.example.kedee.mistu.search.Search">
+
+    <RelativeLayout
+        android:background="@color/myGreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/search_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/search_users"
+            android:paddingStart="5dp"
+            android:textSize="16sp"
+            android:textColor="@color/googleBackground"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingEnd="5dp"
+            />
+
+        <LinearLayout
+            android:id="@+id/search_container"
+            android:layout_below="@+id/search_info"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:background="@color/myGreen"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content">
+
+            <AutoCompleteTextView
+                android:id="@+id/search_user_text"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:hint="@string/search_hint"
+                android:paddingStart="5dp"
+                android:textColor="@color/googleBackground"
+                />
+            <ImageView
+                android:id="@+id/search_icon_small"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/cir_search2"
+                android:padding="5dp"
+                />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/search_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/search_result"
+        android:paddingStart="5dp"
+        android:textSize="14sp"
+        android:textColor="@color/shiny"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingEnd="5dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/search_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/myColor"
+            android:dividerHeight="5dp"
+            android:layout_alignParentTop="true">
+        </ListView>
+
+        <TextView
+            android:id="@+id/search_no_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/search_no_result"
+            android:paddingStart="5dp"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingEnd="5dp"
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
+
+</LinearLayout>
+
